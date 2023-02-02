@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 235, 235);
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+}
+
+.main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formulario{
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.formulario input{
+  outline: none;
+  height: 40px;
+  text-align: center;
+}
+
+.btnGuardar{
+  width: 150px;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: ease-in-out all 0.3s;
+}
+
+.btnGuardar:hover{
+  background-color: rgb(26, 26, 26);
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 5px 5px 5px black;
+  background-color: white;
+}
+
+
+h1{
+  font-size: 20px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.listado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+

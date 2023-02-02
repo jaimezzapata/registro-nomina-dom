@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Salario</title>
+  </head>
+  <body id="body">
+    <form id="formulario" class="formulario" action="">
+      <section class="salario">
+        <input
+          name="valorHora"
+          id="valorHora"
+          placeholder="Cantidad Horas"
+          type="text"
+        />
+        <input
+          name="cantidadHoras"
+          id="cantidadHoras"
+          placeholder="Valor Hora"
+          type="text"
+        />
+      </section>
+      <section class="informacion">
+        <input
+          name="Nombre"
+          placeholder="Nombre"
+          type="text"
+          id="nombreEmpleado"
+        />
+        <input
+          name="Cargo"
+          placeholder="Cargo"
+          type="text"
+          id="cargoEmpleado"
+        />
+        <input
+          name="Documento"
+          placeholder="Documento"
+          type="text"
+          id="documentoEmpleado"
+        />
+      </section>
+      <section class="botones">
+        <input
+          class="btnGuardar"
+          id="guardarEmpleado"
+          type="button"
+          value="Guardar"
+        />
+        <input
+          class="btnGuardar"
+          id="listarEmpleados"
+          type="button"
+          value="Mostrar todos"
+        />
+        <input
+          class="btnGuardar"
+          id="buscarEmpleado"
+          type="button"
+          value="Buscar"
+        />
+      </section>
+    </form>
+    <main id="main" class="main"></main>
+    <section id="cards" class="cards"></section>
+    <script src="./main.js"></script>
+  </body>
+</html>
